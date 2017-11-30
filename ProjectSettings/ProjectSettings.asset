@@ -603,9 +603,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: d7ab424e-4ac6-4821-93b1-acd3166b87e2
+  cloudProjectId: d5b1d178-e7af-4d94-b320-d5a081eb1de3
   projectName: Defense
-  organizationId: kkwak0912
+  organizationId: dbstjd741
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
