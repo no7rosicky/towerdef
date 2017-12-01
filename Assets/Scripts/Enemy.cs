@@ -38,6 +38,7 @@ public class Enemy : MonoBehaviour {
 	void EndPath ()
 	{
 		PlayerStats.Lives--;
+		SoundManager.soundInstance.SoundLifedown();
 		Destroy(gameObject);
 	}
 }

@@ -76,7 +76,7 @@ public class Turrets : MonoBehaviour
     {
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
-
+		SoundManager.soundInstance.SoundSht();
         if (bullet != null)
             bullet.Seek(target);
     }

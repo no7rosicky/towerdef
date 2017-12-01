@@ -38,8 +38,10 @@ public class Bullet : MonoBehaviour
     {
         GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(effectIns, 2f);
-
+		SoundManager.soundInstance.SoundExp();
         Destroy(target.gameObject);
         Destroy(gameObject);
+		PlayerStats.Points++;
+		PlayerStats.Money += 20;
     }
 }
