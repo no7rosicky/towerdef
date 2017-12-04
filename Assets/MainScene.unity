@@ -1002,7 +1002,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 105031271}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 52.699997, y: -88.625, z: 0}
+  m_LocalPosition: {x: 52.700012, y: -88.625, z: 0}
   m_LocalScale: {x: 0.1, y: 0.08, z: 0.1}
   m_Children:
   - {fileID: 703355728}
@@ -10145,7 +10145,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1495034783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.37000275, y: -4.1900024, z: 0}
+  m_LocalPosition: {x: -0.36999512, y: -4.1900024, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 139753663}
@@ -11107,7 +11107,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1653661017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 200, y: 112.5, z: 0}
+  m_LocalPosition: {x: 475.5, y: 123, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1919246312}
@@ -13104,7 +13104,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1919246311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -51.5, z: 0}
+  m_LocalPosition: {x: 0, y: -62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1786073943}
@@ -13184,7 +13184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StandardTurret:
     prefab: {fileID: 1348808620669624, guid: aff35e1b01cacb247a9d3c7d205458e7, type: 2}
-    cost: 100
+    cost: 350
 --- !u!1001 &1930134941
 Prefab:
   m_ObjectHideFlags: 0
@@ -14326,7 +14326,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: $100
+  m_Text: 350
 --- !u!222 &2089000398
 CanvasRenderer:
   m_ObjectHideFlags: 0
