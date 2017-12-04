@@ -42,6 +42,6 @@ public class Bullet : MonoBehaviour
         Destroy(target.gameObject);
         Destroy(gameObject);
 		PlayerStats.Points++;
-		PlayerStats.Money += 20;
+		PlayerStats.Money += 15;
     }
 }

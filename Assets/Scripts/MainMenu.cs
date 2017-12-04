@@ -2,16 +2,11 @@
 using UnityEngine;
 
 public class MainMenu : MonoBehaviour {
-
-	public string levelToLoad = "MainScene";
-
-	// Use this for initialization
+	
 	public void Play () {
-		SceneManager.LoadScene(levelToLoad);
-		
+		SceneManager.LoadScene("MainScene");
 	}
 	
-	// Update is called once per frame
 	public void Quit () {
 		Application.Quit();
 	}
